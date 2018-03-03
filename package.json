@@ -1,0 +1,20 @@
+{
+    "scripts": {
+        "build": "tsc -p tsconfig.json",
+        "start-dev": "ts-node -P tsconfig.json src/recipe.ts",
+        "seed": "ts-node -P tsconfig.json src/data.ts"
+    },
+    "dependencies": {
+        "@types/node": "^9.4.6",
+        "graphql": "^0.13.1",
+        "lodash": "^4.17.5",
+        "mongoose": "^5.0.7"
+    },
+    "devDependencies": {
+        "@types/graphql": "^0.12.4",
+        "@types/lodash": "^4.14.104",
+        "@types/mongoose": "^5.0.2",
+        "ts-node": "^5.0.0",
+        "typescript": "^2.7.2"
+    }
+}
